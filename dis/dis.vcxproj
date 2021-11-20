@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B891575B-3148-3F17-9C04-1B25C2D815D0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>dis</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dis.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dis_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dis.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dis.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dis.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="Debug";dis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"Debug\";dis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\genio_d.lib;..\lib\Debug\util_d.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Debug/dis_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Debug/dis_d.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="Release";dis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"Release\";dis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\genio.lib;..\lib\Release\util.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Release/dis.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Release/dis.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="MinSizeRel";dis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"MinSizeRel\";dis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\MinSizeRel\genio.lib;..\lib\MinSizeRel\util.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/MinSizeRel/dis.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/MinSizeRel/dis.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="RelWithDebInfo";dis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";dis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\RelWithDebInfo\genio.lib;..\lib\RelWithDebInfo\util.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/RelWithDebInfo/dis.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/RelWithDebInfo/dis.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/dis/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/dis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/dis/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/dis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/dis/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/dis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/dis/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/dis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\Dis.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAPA.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAcknowledge.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAcknowledgeR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionRequest.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionRequestR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionResponse.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionResponseR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAisPositionData.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAisStaticData.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAngleDeceptionAttributeRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAppearance.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttribute.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttributeRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttributeRecordSet.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeam.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamDataRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamEnums.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBlankingSectorAttributeRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCapabilities.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisClockTime.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisComment.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCommentR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCreateEntity.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCreateEntityR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDDRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEAreaAimpointRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEBeamAntennaPatternRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEDamageDescriptionRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEPrecisionAimpointRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDERecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDETargetEnergyDepositionRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisData.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQuery.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQueryDatumSpec.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQueryR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDatumSpec.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDesignator.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDetonation.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDirectedEnergyAimpoint.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDirectedEnergyFire.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEmission.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEmissionEnums.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageDescription.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageStatus.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityId.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityPart.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityState.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityStateExtrapolator.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityType.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEnumConversion.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventId.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventReport.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventReportR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFalseTargetsAttributeRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFalseTargetsEnhancedAttributeRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFire.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFixedDatum.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIO.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIff.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIffAtcNavaidsParams.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisJammingTechniqueEnums.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisJammingTechniqueRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisModulationType.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisOther.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPdu.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPduEnums.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPduFactory.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPrecisionBeamAimpoint.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRadioEntityType.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRadioId.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisReceiver.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordHeader.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordQueryR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRemoveEntity.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRemoveEntityR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRepairComplete.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRepairResponse.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyCancel.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyOffer.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyReceived.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisServiceRequest.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetData.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetDataR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetRecordR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisShaft.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSignal.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSpecRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSpotted.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStartResume.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStartResumeR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStopFreeze.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStopFreezeR.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSupplyRecord.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystem.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystemEnums.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystemId.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTime.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTrackJam.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransferOwnership.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransmitter.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUABeam.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUASystem.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUnderwaterAcoustic.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisVariableDatum.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\Dis.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAPA.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAcknowledge.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAcknowledgeR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionRequest.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionRequestR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionResponse.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionResponseR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAisPositionData.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAisStaticData.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAngleDeceptionAttributeRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAppearance.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAppearanceEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttribute.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttributeRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttributeRecordSet.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeam.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamData.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamDataRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBlankingSectorAttributeRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCapabilities.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisClockTime.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisComment.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCommentR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisControlEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCreateEntity.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCreateEntityR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDDRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEAreaAimpointRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEBeamAntennaPatternRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEDamageDescriptionRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEPrecisionAimpointRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDERecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDETargetEnergyDepositionRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisData.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQuery.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQueryDatumSpec.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQueryR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDatumEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDatumSpec.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDeadReckoningEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDeleteObject.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDesignator.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDetonation.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDirectedEnergyAimpoint.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDirectedEnergyFire.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEmission.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEmissionEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageDescription.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageStatus.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityId.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityPart.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityState.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityStateEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityStateExtrapolator.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityType.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEnumConversion.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventId.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventReport.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventReportR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFalseTargetsAttributeRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFalseTargetsEnhancedAttributeRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFire.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFixedDatum.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIO.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIff.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIffAtcNavaids.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIffAtcNavaidsParams.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisJammingTechniqueEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisJammingTechniqueRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisModulationType.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisOther.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPdu.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPduEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPduFactory.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPrecisionBeamAimpoint.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPtrContainer.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPtrVec.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRadioEntityType.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRadioId.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisReceiver.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordHeader.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordQueryR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRemoveEntity.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRemoveEntityR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRepairComplete.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRepairResponse.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyCancel.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyOffer.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyReceived.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisServiceRequest.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetData.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetDataR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetRecordR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisShaft.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSignal.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSpecRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSpotted.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStartResume.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStartResumeR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStopFreeze.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStopFreezeR.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSupplyRecord.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystem.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystemEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystemId.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTime.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTrackJam.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransactionEnums.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransferOwnership.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransmitter.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTypes.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUABeam.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUASystem.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUnderwaterAcoustic.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUtilities.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisValidationUtils.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisVariableDatum.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\ZERO_CHECK.vcxproj">
+      <Project>{9BBC3C7A-6F01-314E-9E4D-4DECBF342CE0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio\genio.vcxproj">
+      <Project>{8FABABAF-02DD-3152-9FC3-571A86FAAD5E}</Project>
+      <Name>genio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source\util.vcxproj">
+      <Project>{2AC51FF1-2636-3F2D-A6C4-D4B63234D737}</Project>
+      <Name>util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

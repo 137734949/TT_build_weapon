@@ -1,0 +1,3235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfComm.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommAddress.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommApplicationLayer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommComponent.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommComponentHW.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommDatalinkLayer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommEvent.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommGraph.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommLayer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommLayerEvent.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMedium.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumContainer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumGuided.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumMessageStatus.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumTypes.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumUnguided.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMessage.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetwork.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkAdHoc.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkGeneric.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkLayer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkManager.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkMesh.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkPointToPoint.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkRing.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkStar.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkTypes.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommPhysicalLayer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommPresentationLayer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolAdHoc.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolIGMP.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolInterface.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolLegacy.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolMulticast.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolOSPF.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolRIPv2.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolStack.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolTypes.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommQueue.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommReservedAddressing.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouter.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouterComponent.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouterProtocolInterface.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouterProtocolTypes.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouterTypes.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommSessionLayer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommTransportLayer.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommTypes.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommUtil.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommXmtrRcvr.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfRadioXmtrRcvr.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAero.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAero2D.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAeroTypes.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAirMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAngleOfAttack.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFollower.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFuel.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFuelFlowTables.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFuelTypes.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFuelingOperation.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfGroundMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfHybridMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfIterativeRouteMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMath3D_Mover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMoverGuidance.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMoverMode.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMoverTypes.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMoverUpdateEvent.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfNavigationCell.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfNavigationErrors.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfNavigationMesh.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfOffsetMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPath.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathComputer.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathConstraints.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathFinder.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathGuidance.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathList.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRoadMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRotorcraftMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRoute.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteFinder.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteNetwork.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteNetworkTypes.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteTypes.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfShadowMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfShortestPath.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfSurfaceMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTSPI.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTSPI_Mover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTabularRateFuel.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTankedFuel.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTerrainPathFinder.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfVariableRateFuel.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfWaypoint.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfWaypointMover.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfWaypointPathGuidance.cpp">
+      <Filter>mover</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfAdvancedBehaviorObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfBehaviorObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfCommObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfDisObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfExchangeObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfFuelObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfMoverObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfPlatformObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfPlatformPartObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfProcessorObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfSensorObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfSimulationObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfTaskObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfTrackObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfZoneObserver.cpp">
+      <Filter>observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfDirectionFinderProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfExchangeProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfLinkedProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfMessageProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfPerfectTracker.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfProcessorComponent.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfProcessorTypes.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfSensorProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTask.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskAssignMessage.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskCancelMessage.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskControlMessage.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskData.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskManager.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskResource.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskStatusMessage.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTrackProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTrackStateControllerProcessor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfBinaryDetector.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfCompositeSensor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfDefaultSensorScheduler.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfDefaultSensorTracker.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfDetectionProbabilityTable.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfEmitterTypeReporting.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfGeometricSensor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfMTI_TableManager.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfMarcumSwerling.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfNullSensor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfPassiveDetector.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfPassiveSensor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfPhysicalScanSensorScheduler.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfRadarMTI_AdjSignalProcessor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfRadarSensor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfRadarSensorErrorModel.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSectorScanSensorScheduler.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorBeam.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorComponent.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorDetector.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorErrorModel.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorErrorModelTypes.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorMode.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorModeList.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorResult.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorScheduler.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorSchedulerTypes.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorSignalProcessor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorTracker.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorTypes.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSimpleDopplerSignalProcessor.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfStandardSensorErrorModel.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfTargetTypeReporting.cpp">
+      <Filter>sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisAcknowledge.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisAcknowledgeR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisActionRequest.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisActionRequestR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisActionResponse.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisActionResponseR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisArticulatedPart.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisComment.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisCommentR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisCreateEntity.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisCreateEntityR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisData.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDataQuery.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDataQueryR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDataR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDesignator.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDevice.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDraw.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEmission.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEntityDamageStatus.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEntityState.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEventReport.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEventReportR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisExchange.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisExt.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisExtension.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisFileDevice.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisFilterAllowance.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisIO_Thread.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisInput.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisInterface.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisMover.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisPduFactory.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisPlatform.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisPlaybackDevice.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisReceiver.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRecordQueryR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRecordR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRemoveEntity.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRemoveEntityR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRepairComplete.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRepairResponse.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisResupplyCancel.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisResupplyOffer.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisResupplyReceived.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisScriptClass.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisServiceRequest.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisSetData.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisSetDataR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisSetRecordR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisSignal.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisStartResume.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisStartResumeR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisStopFreeze.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisStopFreezeR.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisTransferOwnership.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisTransmitter.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisUDP_Device.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisUtil.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisVisualization.cpp">
+      <Filter>dis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEmission.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEntityDeadReckon.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEntityId.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEntityType.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEventId.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtInterface.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtRadioEntityType.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptAntennaPatternClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptArticulatedPartClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCallback.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCommAddress.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCommClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCommRouterClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptContext.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCovarianceClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptDateTimeClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_AntennaClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_AttenuationClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_InteractionClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_PropagationClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_RcvrClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_XmtrClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_XmtrRcvrClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEvent.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptExchangeClasses.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptFuelClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptGeoPointClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptGroupClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptLocalTrackListClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptManager.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptMessageClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptMessageHandler.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptMoverClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptObjectClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptObserver.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptPlatformClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptPlatformListClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptPlatformPartClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptProcessor.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptProcessorClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptRouteClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptSensorClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptSetupClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptSimulationClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptStateMachine.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptStateMachineProcessor.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTaskManagerClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTaskProcessorClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTerrainClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTrackClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTrackListClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTrackProcessorClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptVisualPartClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptWaypointClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptZoneClass.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\WsfOSM_TrafficInput.cpp">
+      <Filter>traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfAirTraffic.cpp">
+      <Filter>traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfOSM_Traffic.cpp">
+      <Filter>traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfRoadTraffic.cpp">
+      <Filter>traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfRouteNetwork.cpp">
+      <Filter>traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfSeaTraffic.cpp">
+      <Filter>traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Connection.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Destination.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_DrawRequest.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_InputData.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Interface.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_ObjectInfo.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PacketRegistry.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PlatformInfoRequest.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PlatformListRequest.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PublishKey.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Publisher.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PublisherHelper.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Query.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_QueryManager.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_RemotePlatformList.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Request.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_SensorRequest.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_SerializeTypes.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Service.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_SimTimeRequest.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Subscription.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_TaskRequest.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_TrackRequest.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_UDP_Header.cpp">
+      <Filter>xio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_AutoDisMapping.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_CommComponent.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_Component.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_DisExtension.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_DisService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_DrawService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_EventPipe.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_EventResults.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_EventUtils.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_Extension.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_MessageService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ObjectInfoLoad.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_PlatformInfoService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_PlatformListService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ScriptClass.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ScriptSerialize.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ScriptService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SensorService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SimPacketRegistry.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SimService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SimTimeService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_Simulation.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_TaskService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_TrackService.cpp">
+      <Filter>xio_sim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAdvancedBehaviorTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAdvancedBehaviorTreeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAntennaPattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAntennaPatternTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfApplicationExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfArticulatedPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfArticulatedPartEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAssociationMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAttributeContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAuxDataEnabled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfBatchTrackReporting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfBehaviorTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfBehaviorTreeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCSV_EventOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCallbackTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCategoryList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCircularFieldOfView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfClockSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCodedZone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCommandChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponentFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponentList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfControlMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfConvexHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCorrelationStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCorrelationStrategyTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCyclicTrackReporting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDateTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDefaultFusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDeferredInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDtedRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Antenna.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Attenuation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_AttenuationTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_BlakeAttenuation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Clutter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_ClutterTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_FastMultipath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_GroundWavePropagation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_ITU_Attenuation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Interaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Noise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Propagation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_PropagationTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Rcvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_SimpleAttenuation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_SurfaceClutterTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Xmtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_XmtrRcvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEarthGravityModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventOutputBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventPipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventStepSimulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExchange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExclusionSensorComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExtensionList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExternalLinks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFieldOfView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFieldOfViewTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFilterTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFrameStepSimulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFusionStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFusionStrategyTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGeoPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGrammarInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGroupList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGroupManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGroupTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfIFF_Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfIntercept.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfInternalLinks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfIntersectMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfIntersectMeshTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfLOS_Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfLocalTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfLocalTrackStatus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMaskingPattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMaskingPatternTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMeasurement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMessageTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfModeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMultiThreadManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfNamed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfNearestNeighborCorrelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfNetworkInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfNoiseCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfObjectTypeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPerfectCorrelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatformAvailability.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatformPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatformPartEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatformTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPluginManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPolygonalFieldOfView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRadarSignature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRadarSignatureTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRandomVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRealTimeClockSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRectangularFieldOfView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfScenario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfScenarioExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSignature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSignatureInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSignatureList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSimulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSimulationExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSimulationInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStandardAntennaPattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStandardApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStandardRadarSignature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStatusMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStringTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSystemLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTabularAttenuation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTerrainProfiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfThermalSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfThermalSystemTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTimeDelayQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackDropMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackNotifyMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackReportingStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackReportingStrategyTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackStateController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTruthCorrelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfUniqueId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVisualPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVisualPartTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVisualization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneAttenuation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneDefinition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneRouteFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfComm.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommAddress.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommApplicationLayer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommComponent.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommComponentHW.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommDatalinkLayer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommEvent.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommGraph.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommLayer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommLayerEvent.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommLayerMessage.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMedium.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumContainer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumFactory.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumGuided.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumMessageStatus.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumTypeIdentifier.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumTypes.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMediumUnguided.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommMessage.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetwork.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkAdHoc.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkGeneric.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkLayer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkManager.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkMesh.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkPointToPoint.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkRing.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkStar.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommNetworkTypes.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommPhysicalLayer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommPresentationLayer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolAdHoc.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolIGMP.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolInterface.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolLegacy.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolMulticast.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolOSPF.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolPriority.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolRIPv2.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolStack.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommProtocolTypes.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommQueue.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommReservedAddressing.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommResult.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouter.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouterComponent.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouterProtocolInterface.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouterProtocolTypes.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRouterTypes.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommRoutingAlgorithmLibrary.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommSessionLayer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommTransportLayer.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommTypes.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommUtil.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfCommXmtrRcvr.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm\WsfRadioXmtrRcvr.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAero.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAero2D.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAeroTypes.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAirMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfAngleOfAttack.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFollower.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFuel.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFuelFlowTables.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFuelTypes.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfFuelingOperation.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfGroundMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfHybridMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfIterativeRouteMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfManualGuidance.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMath3D_Mover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMoverGuidance.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMoverMode.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMoverTypes.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfMoverUpdateEvent.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfNavigationCell.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfNavigationErrors.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfNavigationMesh.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfOffsetMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPath.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathComputer.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathConstraints.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathFinder.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathGuidance.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathList.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfPathState.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRoadMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRotorcraftMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRoute.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteComputer.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteFinder.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteNetwork.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteNetworkTypes.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfRouteTypes.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfShadowMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfShortestPath.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfSurfaceMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTSPI.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTSPI_Mover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTabularRateFuel.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTankedFuel.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfTerrainPathFinder.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfVariableRateFuel.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfWaypoint.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfWaypointMover.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover\WsfWaypointPathGuidance.hpp">
+      <Filter>mover</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfAdvancedBehaviorObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfBehaviorObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfCommObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfDisObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfExchangeObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfFuelObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfMoverObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfPlatformObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfPlatformPartObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfProcessorObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfSensorObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfSimulationObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfTaskObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfTrackObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer\WsfZoneObserver.hpp">
+      <Filter>observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfDirectionFinderProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfExchangeProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfLinkedProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfMessageProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfPerfectTracker.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfProcessorComponent.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfProcessorTypes.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfSensorProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTask.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskAssignMessage.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskCancelMessage.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskControlMessage.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskData.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskManager.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskResource.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTaskStatusMessage.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTrackProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor\WsfTrackStateControllerProcessor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfBinaryDetector.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfCompositeSensor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfDefaultSensorScheduler.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfDefaultSensorTracker.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfDetectionProbabilityTable.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfEmitterTypeReporting.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfGeometricSensor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfMTI_TableManager.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfMarcumSwerling.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfNullSensor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfPassiveDetector.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfPassiveSensor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfPhysicalScanSensorScheduler.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfRadarMTI_AdjSignalProcessor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfRadarSensor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfRadarSensorErrorModel.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSectorScanSensorScheduler.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorBeam.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorComponent.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorDetector.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorErrorModel.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorErrorModelTypes.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorMode.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorModeList.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorResult.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorScheduler.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorSchedulerTypes.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorSignalProcessor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorTracker.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSensorTypes.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSimpleDopplerSignalProcessor.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfSingleSensorObserver.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfStandardSensorErrorModel.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor\WsfTargetTypeReporting.hpp">
+      <Filter>sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisAcknowledge.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisAcknowledgeR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisActionRequest.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisActionRequestR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisActionResponse.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisActionResponseR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisArticulatedPart.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisComment.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisCommentR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisCreateEntity.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisCreateEntityR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisData.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDataQuery.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDataQueryR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDataR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDesignator.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDevice.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisDraw.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEmission.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEntityDamageStatus.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEntityState.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEventReport.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisEventReportR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisExchange.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisExt.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisExtension.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisFileDevice.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisFilterAllowance.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisIO_Thread.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisInput.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisInterface.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisMover.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisPduFactory.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisPlatform.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisPlaybackDevice.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisReceiver.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRecordQueryR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRecordR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRemoveEntity.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRemoveEntityR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRepairComplete.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisRepairResponse.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisResupplyCancel.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisResupplyOffer.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisResupplyReceived.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisScriptClass.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisServiceRequest.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisSetData.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisSetDataR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisSetRecordR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisSignal.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisStartResume.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisStartResumeR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisStopFreeze.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisStopFreezeR.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisTransferOwnership.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisTransmitter.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisUDP_Device.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisUtil.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\dis\WsfDisVisualization.hpp">
+      <Filter>dis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEmission.hpp">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEntityDeadReckon.hpp">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEntityId.hpp">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEntityType.hpp">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtEventId.hpp">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtInterface.hpp">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\ext\WsfExtRadioEntityType.hpp">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptAntennaPatternClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptArticulatedPartClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptAuxDataUtil.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCallback.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCommAddress.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCommClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCommRouterClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptContext.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptCovarianceClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptDateTimeClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptDefs.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_AntennaClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_AttenuationClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_InteractionClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_PropagationClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_RcvrClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_XmtrClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEM_XmtrRcvrClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptEvent.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptExchangeClasses.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptFuelClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptGeoPointClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptGroupClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptLocalTrackListClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptManager.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptMessageClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptMessageHandler.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptMoverClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptObjectClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptObserver.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptPlatformClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptPlatformListClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptPlatformPartClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptProcessor.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptProcessorClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptRouteClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptSensorClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptSetupClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptSimulationClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptStateMachine.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptStateMachineProcessor.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTaskManagerClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTaskProcessorClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTerrainClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTrackClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTrackListClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptTrackProcessorClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptVisualPartClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptWaypointClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\script\WsfScriptZoneClass.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\WsfOSM_TrafficInput.hpp">
+      <Filter>traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfAirTraffic.hpp">
+      <Filter>traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfOSM_Traffic.hpp">
+      <Filter>traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfRoadTraffic.hpp">
+      <Filter>traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfRouteNetwork.hpp">
+      <Filter>traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\traffic\XWsfSeaTraffic.hpp">
+      <Filter>traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Connection.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Data.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Defines.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Destination.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_DrawRequest.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Export.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_InputData.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Interface.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_ObjectInfo.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Packet.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PacketRegistry.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PlatformId.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PlatformInfoRequest.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PlatformListRequest.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PublishKey.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Publisher.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_PublisherHelper.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Query.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_QueryManager.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_RemotePlatformList.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Request.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_SensorRequest.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_SerializeTypes.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Service.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_SimTimeRequest.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_Subscription.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_TaskRequest.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_TrackRequest.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio\WsfXIO_UDP_Header.hpp">
+      <Filter>xio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_AutoDisMapping.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_CommComponent.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_Component.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_DisExtension.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_DisService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_DrawService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_EventPipe.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_EventResults.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_EventUtils.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_Extension.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_MessageService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ObjectInfoLoad.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ObjectInfoLoadHelpers.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_PlatformInfoService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_PlatformListService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ScriptClass.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ScriptSerialize.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_ScriptService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SensorService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SimExport.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SimPacketRegistry.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SimService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_SimTimeService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_Simulation.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_TaskService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\xio_sim\WsfXIO_TrackService.hpp">
+      <Filter>xio_sim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAdvancedBehaviorTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAdvancedBehaviorTreeNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAlphaBetaFilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAlphaBetaGammaFilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAntennaPattern.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAntennaPatternTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfApplication.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfApplicationExtension.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfArticulatedPart.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfArticulatedPartEvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAssociationMessage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAttribute.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAttributeContainer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfAuxDataEnabled.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfBatchTrackReporting.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfBehaviorTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfBehaviorTreeNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCSV_EventOutput.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCallback.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCallbackTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCategoryList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCircularFieldOfView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfClockSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCodedZone.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCommandChain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponentFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponentFactoryList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponentList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponentListDefines.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfComponentRoles.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfConsole.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfControlMessage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfConvexHull.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCorrelationStrategy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCorrelationStrategyTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCovariance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfCyclicTrackReporting.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDateTime.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDefaultFusion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDeferredInput.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDraw.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfDtedRect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Antenna.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Attenuation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_AttenuationTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_BlakeAttenuation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Clutter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_ClutterTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_FastMultipath.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_GroundWavePropagation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_ITU_Attenuation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Interaction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Noise.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Propagation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_PropagationTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Rcvr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_SimpleAttenuation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_SurfaceClutterTable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_Xmtr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEM_XmtrRcvr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEarthGravityModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEnvironment.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventOutput.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventOutputBase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventPipe.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventResult.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventResults.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventStepSimulation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfEventUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExchange.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExclusionSensorComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExtension.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExtensionList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfExternalLinks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFieldOfView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFieldOfViewTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFilterTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFrameStepSimulation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFusionStrategy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfFusionStrategyTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGeoPoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGrammarInterface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGroup.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGroupList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGroupManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfGroupTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfIFF_Manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfIntercept.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfInternalLinks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfIntersectMesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfIntersectMeshTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfKalmanFilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfKalmanFilter2D_RB.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfLOS_Manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfLandCover.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfLocalTrack.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfLocalTrackStatus.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMaskingPattern.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMaskingPatternTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMeasurement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMeasurementUtil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMessage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMessageTable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfModeList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfMultiThreadManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfNamed.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfNearestNeighborCorrelation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfNetworkInterface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfNoiseCloud.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfObjectTypeList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfObjectTypeListBase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfObserverSubjectList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPerfectCorrelation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatformAvailability.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatformPart.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatformPartEvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlatformTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPlugin.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPluginManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfPolygonalFieldOfView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRadarSignature.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRadarSignatureTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRandom.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRandomVariable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRealTimeClockSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfRectangularFieldOfView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfScenario.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfScenarioExtension.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSignature.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSignatureInterface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSignatureList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSimpleComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSimulation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSimulationExtension.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSimulationInput.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSinglePlatformObserver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStableOrderEventManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStandardAntennaPattern.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStandardApplication.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStandardRadarSignature.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStatusMessage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStringId.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfStringTable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfSystemLog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTabularAttenuation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTerrain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTerrainProfiler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfThermalSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfThermalSystemTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfThread.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfThreadPool.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTimeDelayQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrack.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackDropMessage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackId.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackListFwd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackMessage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackNotifyMessage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackReportingStrategy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackReportingStrategyTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackStateController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTrackStateControllerEvents.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTruthCorrelation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfUniqueId.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfUtil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVariable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVersion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVisualPart.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVisualPartTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfVisualization.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZone.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneAttenuation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneDefinition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneReference.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneRouteFinder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\WsfZoneTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\WsfEventPipeClasses.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\WsfEventPipeClassesRegister.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\WsfEventPipeSchema.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include\wsf_version_defines.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\grammar\wsf.ag" />
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\WsfEventPipeClasses.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\WsfEventPipeClassesRegister.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\WsfEventPipeSchema.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E487B5E7-0BEA-354C-AA77-C88FC24E6042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A0E814E8-B54A-3CC2-9654-C4DB59E60833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{38C2E63F-362D-35F6-8699-73651E874153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="comm">
+      <UniqueIdentifier>{D75697B8-98B2-3F99-BAD8-CB77CBD8DE54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dis">
+      <UniqueIdentifier>{04AA51DF-8F66-3D5D-AF79-C7F7CF880826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{CCB65CAD-B25F-3503-9C41-49C8861EC6F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mover">
+      <UniqueIdentifier>{D42DA84F-E169-3CD3-9836-AF414453769C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="observer">
+      <UniqueIdentifier>{7C8D8793-083E-313D-8701-4ECF71A31216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="processor">
+      <UniqueIdentifier>{F1877BAB-392B-3CE5-967F-35071A0551E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{44722643-0D29-319D-9535-042FA141FCEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sensor">
+      <UniqueIdentifier>{C82CD056-7B08-3E5B-B3EC-A8016BD9E5FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="traffic">
+      <UniqueIdentifier>{A0B49A87-D0E9-39AC-AFC2-10B8B55A4C47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xio">
+      <UniqueIdentifier>{5E8D1E34-F965-31B2-A513-409CEF4A681B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xio_sim">
+      <UniqueIdentifier>{B3520387-E466-3492-BAB1-7CC7A2A6FB3E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

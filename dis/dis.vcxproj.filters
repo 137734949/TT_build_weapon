@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\Dis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAPA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAcknowledge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAcknowledgeR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionRequestR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionResponseR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAisPositionData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAisStaticData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAngleDeceptionAttributeRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAppearance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttributeRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttributeRecordSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamDataRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBlankingSectorAttributeRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCapabilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisClockTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisComment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCommentR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCreateEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCreateEntityR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDDRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEAreaAimpointRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEBeamAntennaPatternRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEDamageDescriptionRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEPrecisionAimpointRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDERecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDETargetEnergyDepositionRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQueryDatumSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQueryR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDatumSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDesignator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDetonation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDirectedEnergyAimpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDirectedEnergyFire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEmission.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEmissionEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageDescription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageStatus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityStateExtrapolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEnumConversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventReportR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFalseTargetsAttributeRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFalseTargetsEnhancedAttributeRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFixedDatum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIffAtcNavaidsParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisJammingTechniqueEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisJammingTechniqueRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisModulationType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisOther.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPduEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPduFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPrecisionBeamAimpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRadioEntityType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRadioId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordQueryR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRemoveEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRemoveEntityR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRepairComplete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRepairResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyCancel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyOffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyReceived.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisServiceRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetDataR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetRecordR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisShaft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSignal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSpecRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSpotted.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStartResume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStartResumeR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStopFreeze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStopFreezeR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSupplyRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystemEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystemId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTrackJam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransferOwnership.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUABeam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUASystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUnderwaterAcoustic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisVariableDatum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\Dis.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAPA.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAcknowledge.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAcknowledgeR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionRequest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionRequestR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionResponse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisActionResponseR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAisPositionData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAisStaticData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAngleDeceptionAttributeRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAppearance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAppearanceEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttribute.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttributeRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisAttributeRecordSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeam.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamDataRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBeamEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisBlankingSectorAttributeRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCapabilities.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisClockTime.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisComment.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCommentR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisControlEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCreateEntity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisCreateEntityR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDDRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEAreaAimpointRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEBeamAntennaPatternRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEDamageDescriptionRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDEPrecisionAimpointRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDERecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDETargetEnergyDepositionRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQuery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQueryDatumSpec.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataQueryR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDataR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDatumEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDatumSpec.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDeadReckoningEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDeleteObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDesignator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDetonation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDirectedEnergyAimpoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisDirectedEnergyFire.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEmission.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEmissionEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageDescription.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityDamageStatus.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityId.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityPart.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityStateEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityStateExtrapolator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEntityType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEnumConversion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventId.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventReport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisEventReportR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFalseTargetsAttributeRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFalseTargetsEnhancedAttributeRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFire.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisFixedDatum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIO.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIff.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIffAtcNavaids.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisIffAtcNavaidsParams.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisJammingTechniqueEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisJammingTechniqueRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisModulationType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisOther.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPdu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPduEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPduFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPrecisionBeamAimpoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPtrContainer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisPtrVec.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRadioEntityType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRadioId.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisReceiver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordHeader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordQueryR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRecordR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRemoveEntity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRemoveEntityR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRepairComplete.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisRepairResponse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyCancel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyOffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisResupplyReceived.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisServiceRequest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetDataR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSetRecordR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisShaft.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSignal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSpecRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSpotted.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStartResume.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStartResumeR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStopFreeze.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisStopFreezeR.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSupplyRecord.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystemEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisSystemId.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTime.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTrackJam.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransactionEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransferOwnership.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTransmitter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUABeam.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUASystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUnderwaterAcoustic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisUtilities.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisValidationUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\DisVariableDatum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A0E814E8-B54A-3CC2-9654-C4DB59E60833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{38C2E63F-362D-35F6-8699-73651E874153}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

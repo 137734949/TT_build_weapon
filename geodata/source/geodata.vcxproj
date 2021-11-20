@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B08D59F-1120-3E49-9EAC-F2079E07503D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>geodata</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">geodata.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">geodata_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">geodata.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">geodata</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">geodata.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">geodata</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">geodata.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">geodata</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="Debug";geodata_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"Debug\";geodata_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\genio_d.lib;..\..\lib\Debug\util_d.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Debug/geodata_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Debug/geodata_d.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="Release";geodata_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"Release\";geodata_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\genio.lib;..\..\lib\Release\util.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Release/geodata.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Release/geodata.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="MinSizeRel";geodata_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"MinSizeRel\";geodata_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\genio.lib;..\..\lib\MinSizeRel\util.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/MinSizeRel/geodata.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/MinSizeRel/geodata.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="RelWithDebInfo";geodata_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";geodata_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\genio.lib;..\..\lib\RelWithDebInfo\util.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/RelWithDebInfo/geodata.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/RelWithDebInfo/geodata.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/geodata/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/geodata/source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/geodata/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/geodata/source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/geodata/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/geodata/source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/geodata/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/geodata/source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\AdrgDir.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\AdrgDir.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\AdrgFile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\AdrgFile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\AdrgTileMatrix.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\AdrgTileMatrix.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\ArcDir.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\ArcDir.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\ArcLodDir.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\ArcLodDir.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\ArcTileMatrix.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\ArcTileMatrix.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\ContourFilter2D.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\ContourFilter2D.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\DtedDir.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\DtedDir.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\DtedTile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\DtedTile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\DtedTileManager.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\DtedTileManager.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\EquidistantProjection.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\EquidistantProjection.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\FloatGridDir.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\FloatGridDir.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\FloatGridTile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\FloatGridTile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\FloatGridTileManager.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\FloatGridTileManager.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoElevationTile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoElevationTile.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoElevationTileManager.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoImageTile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoImageTile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoIntersectDatabase.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoIntersectDatabase.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoLatLonGridTile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoLatLonGridTile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoRect.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoRect.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoShapeFile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoShapeFile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoSymmetricalPanel.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoSymmetricalPanel.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTextureRecord.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTextureRecord.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTileCache.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTileCache.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTileManager.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTileManager.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTileMatrix.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTileMatrix.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoTileName.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeodeticEarthDatabase.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeodeticEarthDatabase.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeodeticEarthElevCompute.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeodeticEarthElevCompute.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoidUndulation.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeoidUndulation.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeotiffTile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeotiffTile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeotiffTileManager.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\GeotiffTileManager.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\LandUseDir.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\LandUseDir.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\LandUseTile.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\LandUseTile.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\LandUseTileManager.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\LandUseTileManager.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\MapProjection.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\MapProjection.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\NimaMaps.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\NimaUtil.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\NimaUtil.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\OrthoProjection.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\OrthoProjection.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\TMProjection.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\TMProjection.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\UserMapHeader.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\UserMapHeader.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\UserMapLodHeader.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\UserMapLodHeader.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VisualDatabase.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VisualDatabase.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapCoverage.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapCoverage.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapDatabase.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapDatabase.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapFeature.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapFeature.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapFeatureList.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapFeatureList.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapLibrary.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VmapLibrary.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfBuffer.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfBuffer.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfDebug.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfDebug.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfFeature.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfFeature.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfSpatialIndex.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfSpatialIndex.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfTable.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfTable.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfThematicIndex.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfThematicIndex.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfTileMatrix.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source\VpfTileMatrix.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\ZERO_CHECK.vcxproj">
+      <Project>{9BBC3C7A-6F01-314E-9E4D-4DECBF342CE0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio\genio.vcxproj">
+      <Project>{8FABABAF-02DD-3152-9FC3-571A86FAAD5E}</Project>
+      <Name>genio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source\util.vcxproj">
+      <Project>{2AC51FF1-2636-3F2D-A6C4-D4B63234D737}</Project>
+      <Name>util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

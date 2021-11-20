@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\WsfUnitTestCommands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommaddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommgraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommnetworkmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommprotocolripv2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommroutingalgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\mover\test_wsfpathcomputer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\processor\test_wsftask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfdatetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfdefaultfusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfexternallinks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsffusionstrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfintercept.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfmessagetable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{38C2E63F-362D-35F6-8699-73651E874153}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{82E24929-3712-378F-A417-F31BEB0D299F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>core_test</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">core_test.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">core_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">core_test.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">core_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">core_test.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">core_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">core_test.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">core_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\wsf_d.lib;..\..\lib\Debug\geodata_d.lib;..\..\lib\Debug\packetio_d.lib;..\..\lib\Debug\util_script_d.lib;..\..\lib\Debug\dis_d.lib;..\..\lib\Debug\tracking_filters_d.lib;..\..\lib\Debug\genio_d.lib;ws2_32.lib;..\..\lib\Debug\wsf_util_d.lib;..\..\lib\Debug\util_d.lib;..\..\3rd_party\gtest-1.8.0-x64-vs2017\lib\gtest_maind.lib;..\..\3rd_party\gtest-1.8.0-x64-vs2017\lib\gtestd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Debug/core_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Debug/core_test.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\wsf.lib;..\..\lib\Release\geodata.lib;..\..\lib\Release\packetio.lib;..\..\lib\Release\util_script.lib;..\..\lib\Release\dis.lib;..\..\lib\Release\tracking_filters.lib;..\..\lib\Release\genio.lib;ws2_32.lib;..\..\lib\Release\wsf_util.lib;..\..\lib\Release\util.lib;..\..\3rd_party\gtest-1.8.0-x64-vs2017\lib\gtest_main.lib;..\..\3rd_party\gtest-1.8.0-x64-vs2017\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Release/core_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Release/core_test.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\wsf.lib;..\..\lib\MinSizeRel\geodata.lib;..\..\lib\MinSizeRel\packetio.lib;..\..\lib\MinSizeRel\util_script.lib;..\..\lib\MinSizeRel\dis.lib;..\..\lib\MinSizeRel\tracking_filters.lib;..\..\lib\MinSizeRel\genio.lib;ws2_32.lib;..\..\lib\MinSizeRel\wsf_util.lib;..\..\lib\MinSizeRel\util.lib;..\..\3rd_party\gtest-1.8.0-x64-vs2017\lib\gtest_main.lib;..\..\3rd_party\gtest-1.8.0-x64-vs2017\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/MinSizeRel/core_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/MinSizeRel/core_test.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\comm;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\mover;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\observer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\processor;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\source\sensor;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util_script\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\genio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\packetio\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\dis\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\tracking_filters\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\wsf.lib;..\..\lib\RelWithDebInfo\geodata.lib;..\..\lib\RelWithDebInfo\packetio.lib;..\..\lib\RelWithDebInfo\util_script.lib;..\..\lib\RelWithDebInfo\dis.lib;..\..\lib\RelWithDebInfo\tracking_filters.lib;..\..\lib\RelWithDebInfo\genio.lib;ws2_32.lib;..\..\lib\RelWithDebInfo\wsf_util.lib;..\..\lib\RelWithDebInfo\util.lib;..\..\3rd_party\gtest-1.8.0-x64-vs2017\lib\gtest_main.lib;..\..\3rd_party\gtest-1.8.0-x64-vs2017\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/RelWithDebInfo/core_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/RelWithDebInfo/core_test.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/wsf/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/wsf/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/wsf/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/wsf/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\WsfUnitTestCommands.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommaddress.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommgraph.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommnetworkmanager.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommprotocolripv2.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\comm\test_wsfcommroutingalgorithm.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\mover\test_wsfpathcomputer.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\processor\test_wsftask.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfdatetime.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfdefaultfusion.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfexternallinks.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsffusionstrategy.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfintercept.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\test\test_wsfmessagetable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\ZERO_CHECK.vcxproj">
+      <Project>{9BBC3C7A-6F01-314E-9E4D-4DECBF342CE0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\dis\dis.vcxproj">
+      <Project>{B891575B-3148-3F17-9C04-1B25C2D815D0}</Project>
+      <Name>dis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\genio\genio.vcxproj">
+      <Project>{8FABABAF-02DD-3152-9FC3-571A86FAAD5E}</Project>
+      <Name>genio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\geodata\source\geodata.vcxproj">
+      <Project>{1B08D59F-1120-3E49-9EAC-F2079E07503D}</Project>
+      <Name>geodata</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\packetio\packetio.vcxproj">
+      <Project>{1A213B83-FBAA-3316-9639-E4A9095F935E}</Project>
+      <Name>packetio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\tracking_filters\tracking_filters.vcxproj">
+      <Project>{E7F92CDB-1C92-3D12-9EA3-D691D50D2D3C}</Project>
+      <Name>tracking_filters</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source\util.vcxproj">
+      <Project>{2AC51FF1-2636-3F2D-A6C4-D4B63234D737}</Project>
+      <Name>util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util_script\util_script.vcxproj">
+      <Project>{4B4BB519-4555-31D6-9561-CF0587B1C288}</Project>
+      <Name>util_script</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\source\wsf.vcxproj">
+      <Project>{5581AC04-3B23-31AC-A780-F232ACA684EE}</Project>
+      <Name>wsf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf_util\wsf_util.vcxproj">
+      <Project>{1893724D-E276-3F53-97B0-605A8FFA10F9}</Project>
+      <Name>wsf_util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

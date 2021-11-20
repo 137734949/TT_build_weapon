@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{229E470D-4554-3283-9BE9-006900BBBFB9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>utilqt</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">utilqt.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">utilqt_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">utilqt.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">utilqt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">utilqt.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">utilqt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">utilqt.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">utilqt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_Debug;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Debug";utilqt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Debug\";utilqt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_Debug;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_Debug;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target utilqt</Message>
+      <Command>setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\util_d.lib;opengl32.lib;glu32.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5OpenGLd.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Networkd.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Widgetsd.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Guid.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Debug/utilqt_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Debug/utilqt_d.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_Release;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Release";utilqt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Release\";utilqt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_Release;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_Release;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target utilqt</Message>
+      <Command>setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\util.lib;opengl32.lib;glu32.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5OpenGL.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Network.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Widgets.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Gui.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Release/utilqt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Release/utilqt.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_MinSizeRel;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="MinSizeRel";utilqt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"MinSizeRel\";utilqt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_MinSizeRel;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_MinSizeRel;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target utilqt</Message>
+      <Command>setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\util.lib;opengl32.lib;glu32.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5OpenGL.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Network.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Widgets.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Gui.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/MinSizeRel/utilqt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/MinSizeRel/utilqt.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_RelWithDebInfo;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="RelWithDebInfo";utilqt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";utilqt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_RelWithDebInfo;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\include_RelWithDebInfo;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtWidgets;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtGui;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtANGLE;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtCore;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\.\mkspecs\win32-msvc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtOpenGL;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target utilqt</Message>
+      <Command>setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\util.lib;opengl32.lib;glu32.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5OpenGL.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Network.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Widgets.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Gui.lib;..\..\3rd_party\qt-5.12.9-x64-vs2017\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/RelWithDebInfo/utilqt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/RelWithDebInfo/utilqt.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\qt_designer\UtQtAxisBounds.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_UtQtAxisBounds.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtAxisBounds.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtAxisBounds.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtAxisBounds.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_UtQtAxisBounds.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtAxisBounds.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtAxisBounds.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtAxisBounds.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_UtQtAxisBounds.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtAxisBounds.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtAxisBounds.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtAxisBounds.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_UtQtAxisBounds.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtAxisBounds.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtAxisBounds.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtAxisBounds.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\qt_designer\UtQtGradientEditor.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_UtQtGradientEditor.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtGradientEditor.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtGradientEditor.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientEditor.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_UtQtGradientEditor.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtGradientEditor.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtGradientEditor.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientEditor.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_UtQtGradientEditor.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtGradientEditor.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtGradientEditor.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientEditor.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_UtQtGradientEditor.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtGradientEditor.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtGradientEditor.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientEditor.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\qt_designer\UtQtGradientLegend.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_UtQtGradientLegend.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtGradientLegend.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtGradientLegend.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientLegend.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_UtQtGradientLegend.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtGradientLegend.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtGradientLegend.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientLegend.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_UtQtGradientLegend.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtGradientLegend.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtGradientLegend.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientLegend.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_UtQtGradientLegend.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtGradientLegend.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtGradientLegend.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientLegend.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\qt_designer\UtQtTablePlotWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_UtQtTablePlotWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtTablePlotWidget.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtTablePlotWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtTablePlotWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_UtQtTablePlotWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtTablePlotWidget.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtTablePlotWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtTablePlotWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_UtQtTablePlotWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtTablePlotWidget.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtTablePlotWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtTablePlotWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_UtQtTablePlotWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\3rd_party\qt-5.12.9-x64-vs2017\bin\uic.exe -o C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/ui_UtQtTablePlotWidget.h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/qt_designer/UtQtTablePlotWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtTablePlotWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\16b6562de482c57b2f5430993e7d4718\qrc_utilqt.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for ../ui/resources/utilqt.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\CMakeFiles\utilqt_autogen.dir\AutoRcc_utilqt_OM7KMYCCQQ_Info.json;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\images\256_32x16_Font_comp.tga;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\images\256_32x16_Font.tga;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\OM7KMYCCQQ\qrc_utilqt.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for ../ui/resources/utilqt.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\CMakeFiles\utilqt_autogen.dir\AutoRcc_utilqt_OM7KMYCCQQ_Info.json;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\images\256_32x16_Font_comp.tga;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\images\256_32x16_Font.tga;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\OM7KMYCCQQ\qrc_utilqt.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic RCC for ../ui/resources/utilqt.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\CMakeFiles\utilqt_autogen.dir\AutoRcc_utilqt_OM7KMYCCQQ_Info.json;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\images\256_32x16_Font_comp.tga;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\images\256_32x16_Font.tga;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\OM7KMYCCQQ\qrc_utilqt.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic RCC for ../ui/resources/utilqt.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autorcc C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\CMakeFiles\utilqt_autogen.dir\AutoRcc_utilqt_OM7KMYCCQQ_Info.json;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\images\256_32x16_Font_comp.tga;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\images\256_32x16_Font.tga;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\OM7KMYCCQQ\qrc_utilqt.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\qt_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\3rd_party-cmake\qt-5.12.9.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\3rd_party-cmake\shared.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\qt_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\3rd_party-cmake\qt-5.12.9.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\3rd_party-cmake\shared.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\qt_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\3rd_party-cmake\qt-5.12.9.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\3rd_party-cmake\shared.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\qt_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\3rd_party-cmake\qt-5.12.9.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\3rd_party-cmake\shared.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQt.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQt.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQt3DTrajectoryPlot.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQt3DTrajectoryPlot.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtAbstractTableModel.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtAbstractTableModel.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtAbstractTreeModel.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtAbstractTreeModel.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtAxisBoundsWidget.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtAxisBoundsWidget.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtCSSLoader.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtCSSLoader.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtCenteredCheckBox.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtCenteredCheckBox.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtCheckBoxDelegate.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtCheckBoxDelegate.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtColorButton.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtColorButton.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtColumnSettings.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtColumnSettings.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtComboBox.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtComboBox.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtCompressDirectory.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtCompressDirectory.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtDockArea.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtDockArea.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtDockControl.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtDockControl.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtDoubleValidator.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtDragDropToolbar.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtDragDropToolbar.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtEncodeWidgetState.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtEncodeWidgetState.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGL2DPlot.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGL2DPlot.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGL2DPlotTP.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGL2DPlotTP.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGL2DPlotWidget.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGL2DPlotWidget.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGL3DPlotWidget.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGL3DPlotWidget.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGLWidgetBase.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGLWidgetBase.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientBar.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientBar.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientColorListItem.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientColorListItem.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientEditDelegate.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientEditDelegate.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientEditor.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientEditor.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientLegend.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientLegend.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientMap.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtGradientMap.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtInitResources.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtMemory.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtMenuItemWidget.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtMenuItemWidget.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtNetwork.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtNetwork.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtOpenGLWidget.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtPieChart.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtPieChart.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtPlotChooser.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtPlotChooser.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtSimpleProcessWrapper.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtSimpleProcessWrapper.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtSlider.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTableCellButtonDelegate.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTableCellButtonDelegate.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTablePlotWidget.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTablePlotWidget.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTableView.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTableView.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtText.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtText.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTextDelegate.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTextDelegate.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTextEdit.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTextEdit.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTextureFont.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTextureFont.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTextureTGA.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTextureTGA.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtTransparentBackgroundDelegate.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtUiPointer.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtUnitLineEdit.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtUnitValueEdit.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtUnitValueEdit.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtVerticalLabel.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtVerticalLabel.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtXml.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtXmlReader.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtXmlReader.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtXmlWriter.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\source\UtQtXmlWriter.hpp" />
+    <None Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilqt\ui\resources\utilqt.qrc">
+    </None>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtAxisBounds.h" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientEditor.h" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtGradientLegend.h" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\ui_UtQtTablePlotWidget.h" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\OM7KMYCCQQ\qrc_utilqt.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilqt\utilqt_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\ZERO_CHECK.vcxproj">
+      <Project>{9BBC3C7A-6F01-314E-9E4D-4DECBF342CE0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source\util.vcxproj">
+      <Project>{2AC51FF1-2636-3F2D-A6C4-D4B63234D737}</Project>
+      <Name>util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

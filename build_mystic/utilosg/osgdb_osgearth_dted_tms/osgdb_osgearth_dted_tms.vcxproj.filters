@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\osgdb_osgearth_dted_tms\osgdb_osgearth_dted_tms_autogen\mocs_compilation_Debug.cpp">
+      <Filter>qt_autogen\moc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\osgdb_osgearth_dted_tms\DtedTmsPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\osgdb_osgearth_dted_tms\DtedTmsTileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\osgdb_osgearth_dted_tms\osgdb_osgearth_dted_tms_autogen\mocs_compilation_Release.cpp">
+      <Filter>qt_autogen\moc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\osgdb_osgearth_dted_tms\osgdb_osgearth_dted_tms_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>qt_autogen\moc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\osgdb_osgearth_dted_tms\osgdb_osgearth_dted_tms_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>qt_autogen\moc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\osgdb_osgearth_dted_tms\DtedTmsExports.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\osgdb_osgearth_dted_tms\DtedTmsOptions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\osgdb_osgearth_dted_tms\DtedTmsTileSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\osgdb_osgearth_dted_tms\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A0E814E8-B54A-3CC2-9654-C4DB59E60833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{38C2E63F-362D-35F6-8699-73651E874153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qt_autogen">
+      <UniqueIdentifier>{705454FF-F41B-32AC-A8C7-EE9DBEECA67C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qt_autogen\moc">
+      <UniqueIdentifier>{02FE5F61-8144-388A-885C-8170C34D7B61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

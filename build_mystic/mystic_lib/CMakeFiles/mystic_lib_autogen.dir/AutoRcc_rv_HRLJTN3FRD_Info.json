@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/mystic_lib_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/source",
+	"CMAKE_SOURCE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev",
+	"INCLUDE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/mystic_lib_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/mystic_lib_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/mystic_lib_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/mystic_lib_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/mystic_lib_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/ui/resources/tips.txt",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/ui/resources/images/mystic_icon.ico",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/ui/resources/images/Splash_AFSIM_Mystic_BW_SM.png"
+	],
+	"LOCK_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutoRcc_rv_HRLJTN3FRD_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "rv" ],
+	"OUTPUT_CHECKSUM" : "HRLJTN3FRD",
+	"OUTPUT_NAME" : "qrc_rv.cpp",
+	"RCC_EXECUTABLE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutoRcc_rv_HRLJTN3FRD_Used.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutoRcc_rv_HRLJTN3FRD_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutoRcc_rv_HRLJTN3FRD_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutoRcc_rv_HRLJTN3FRD_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutoRcc_rv_HRLJTN3FRD_Used_Release.txt",
+	"SOURCE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/ui/resources/rv.qrc",
+	"VERBOSITY" : 0
+}

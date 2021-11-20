@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\aec604346bfdee99e4ea547bd0d161ef\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E487B5E7-0BEA-354C-AA77-C88FC24E6042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

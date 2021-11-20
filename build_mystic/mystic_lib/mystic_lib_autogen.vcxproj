@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E9D165F4-9D4A-3301-92FB-FB29E06D240E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>mystic_lib_autogen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\RvEventPipeClasses.hpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClasses.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\Debug\pack_to_cpp.exe -msg-base rv::MessageBase -msg-base-file RvEventPipeMessages.hpp -namespace rv -h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClasses.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClasses.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\Release\pack_to_cpp.exe -msg-base rv::MessageBase -msg-base-file RvEventPipeMessages.hpp -namespace rv -h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClasses.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClasses.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\MinSizeRel\pack_to_cpp.exe -msg-base rv::MessageBase -msg-base-file RvEventPipeMessages.hpp -namespace rv -h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClasses.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClasses.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\RelWithDebInfo\pack_to_cpp.exe -msg-base rv::MessageBase -msg-base-file RvEventPipeMessages.hpp -namespace rv -h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClasses.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\RvEventPipeClassesRegister.hpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClassesRegister.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\Debug\pack_to_cpp.exe -class-header RvEventPipeClasses.hpp -namespace rv -c C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClassesRegister.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClassesRegister.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClassesRegister.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\Release\pack_to_cpp.exe -class-header RvEventPipeClasses.hpp -namespace rv -c C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClassesRegister.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClassesRegister.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClassesRegister.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\MinSizeRel\pack_to_cpp.exe -class-header RvEventPipeClasses.hpp -namespace rv -c C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClassesRegister.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClassesRegister.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClassesRegister.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\RelWithDebInfo\pack_to_cpp.exe -class-header RvEventPipeClasses.hpp -namespace rv -c C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeClassesRegister.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClassesRegister.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\RvEventPipeSchema.hpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../include/RvEventPipeSchema.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\Debug\pack_to_cpp.exe -res cRvEventPipe_SCHEMA C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeSchema.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeSchema.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../include/RvEventPipeSchema.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\Release\pack_to_cpp.exe -res cRvEventPipe_SCHEMA C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeSchema.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeSchema.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../include/RvEventPipeSchema.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\MinSizeRel\pack_to_cpp.exe -res cRvEventPipe_SCHEMA C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeSchema.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeSchema.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../include/RvEventPipeSchema.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\RelWithDebInfo\pack_to_cpp.exe -res cRvEventPipe_SCHEMA C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvEventPipeSchema.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeSchema.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\RvMilEventPipeClasses.hpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClasses.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\Debug\pack_to_cpp.exe -msg-base rv::MessageBase -msg-base-file RvEventPipeClasses.hpp -namespace rv -h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClasses.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClasses.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\Release\pack_to_cpp.exe -msg-base rv::MessageBase -msg-base-file RvEventPipeClasses.hpp -namespace rv -h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClasses.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClasses.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\MinSizeRel\pack_to_cpp.exe -msg-base rv::MessageBase -msg-base-file RvEventPipeClasses.hpp -namespace rv -h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClasses.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClasses.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\RelWithDebInfo\pack_to_cpp.exe -msg-base rv::MessageBase -msg-base-file RvEventPipeClasses.hpp -namespace rv -h C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClasses.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\RvMilEventPipeClassesRegister.hpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClassesRegister.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\Debug\pack_to_cpp.exe -class-header RvMilEventPipeClasses.hpp -namespace rv -c C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClassesRegister.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClassesRegister.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClassesRegister.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\Release\pack_to_cpp.exe -class-header RvMilEventPipeClasses.hpp -namespace rv -c C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClassesRegister.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClassesRegister.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClassesRegister.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\MinSizeRel\pack_to_cpp.exe -class-header RvMilEventPipeClasses.hpp -namespace rv -c C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClassesRegister.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClassesRegister.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">**** Generating C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClassesRegister.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\RelWithDebInfo\pack_to_cpp.exe -class-header RvMilEventPipeClasses.hpp -namespace rv -c C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf/event_pipe/wsf.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeClassesRegister.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe\wsf.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClassesRegister.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\2cb761b0a4f5106251edfe9e78f005c4\RvMilEventPipeSchema.hpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../include/RvMilEventPipeSchema.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\Debug\pack_to_cpp.exe -res cRvMilEventPipe_SCHEMA C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeSchema.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeSchema.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../include/RvMilEventPipeSchema.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\Release\pack_to_cpp.exe -res cRvMilEventPipe_SCHEMA C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeSchema.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeSchema.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../include/RvMilEventPipeSchema.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\MinSizeRel\pack_to_cpp.exe -res cRvMilEventPipe_SCHEMA C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeSchema.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeSchema.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../include/RvMilEventPipeSchema.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\RelWithDebInfo\pack_to_cpp.exe -res cRvMilEventPipe_SCHEMA C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/core/wsf_mil/wsf_mil_events.utpack C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/include/RvMilEventPipeSchema.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_mil\wsf_mil_events.utpack;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\pack_to_cpp.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeSchema.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\22ba2574ae444b13943f1e587a945abd\mystic_lib_autogen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic MOC for target mystic_lib</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.cpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClassesRegister.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeSchema.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.cpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClassesRegister.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeSchema.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\mystic_lib_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic MOC for target mystic_lib</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.cpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClassesRegister.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeSchema.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.cpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClassesRegister.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeSchema.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\mystic_lib_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic MOC for target mystic_lib</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.cpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClassesRegister.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeSchema.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.cpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClassesRegister.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeSchema.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\mystic_lib_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic MOC for target mystic_lib</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/mystic_lib_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.cpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeClassesRegister.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvEventPipeSchema.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.cpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClasses.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeClassesRegister.hpp;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\include\RvMilEventPipeSchema.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\mystic_lib_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\qt_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source\UtResourceCompiler.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\ui\resources\rv.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\qt_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source\UtResourceCompiler.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\ui\resources\rv.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\qt_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source\UtResourceCompiler.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\ui\resources\rv.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/mystic/lib/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/mystic_lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\qt_project.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf\event_pipe.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\core\wsf_util\source\UtResourceCompiler.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mystic\lib\ui\resources\rv.qrc;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\qt-5.12.9-x64-vs2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\mystic_lib\CMakeFiles\mystic_lib_autogen">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\ZERO_CHECK.vcxproj">
+      <Project>{9BBC3C7A-6F01-314E-9E4D-4DECBF342CE0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf\pack_to_cpp\pack_to_cpp.vcxproj">
+      <Project>{D671E473-F01A-3BA9-BDBD-B6BB55BDFBC8}</Project>
+      <Name>pack_to_cpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source\util.vcxproj">
+      <Project>{2AC51FF1-2636-3F2D-A6C4-D4B63234D737}</Project>
+      <Name>util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf\wkf.vcxproj">
+      <Project>{86356097-0346-3DB4-8ECD-8BCE5DD1D8F1}</Project>
+      <Name>wkf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\wkf_common.vcxproj">
+      <Project>{B04D4644-C993-3F8B-AC45-4023E5F909C8}</Project>
+      <Name>wkf_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\wsf_util\wsf_util.vcxproj">
+      <Project>{1893724D-E276-3F53-97B0-605A8FFA10F9}</Project>
+      <Name>wsf_util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

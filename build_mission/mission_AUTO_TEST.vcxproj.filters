@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\CMakeFiles\62ea6b105a79ab53b6c1843219b4a8e2\mission_AUTO_TEST.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\mission\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\wsf_auto_test.cmake" />
+    <None Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mission\CMakeFiles\mission_AUTO_TEST" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E487B5E7-0BEA-354C-AA77-C88FC24E6042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

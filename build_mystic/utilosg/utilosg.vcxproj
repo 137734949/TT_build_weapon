@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B4BA645-AC9A-3B90-AB49-63BB47C59251}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>utilosg</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">utilosg.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">utilosg_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">utilosg.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">utilosg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">utilosg.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">utilosg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">utilosg.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">utilosg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_Debug;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;DBG_HAS_DLL=0;CMAKE_INTDIR="Debug";utilosg_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;DBG_HAS_DLL=0;CMAKE_INTDIR=\"Debug\";utilosg_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_Debug;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_Debug;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target utilosg</Message>
+      <Command>setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg/CMakeFiles/utilosg_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\OpenThreadsd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgViewerd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgTextd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgdbd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgUtild.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgGAd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgSimd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgAnimationd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgFXd.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\debug\lib\osgParticled.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\debug\lib\osgEarthd.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\debug\lib\osgEarthUtild.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\debug\lib\osgEarthFeaturesd.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\debug\lib\osgEarthSymbologyd.lib;..\..\3rd_party\geos-3.5.1-x64-vs2017\debug\lib\geos.lib;..\..\lib\Debug\util_d.lib;opengl32.lib;glu32.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Debug/utilosg_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Debug/utilosg_d.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_Release;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;DBG_HAS_DLL=0;CMAKE_INTDIR="Release";utilosg_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;DBG_HAS_DLL=0;CMAKE_INTDIR=\"Release\";utilosg_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_Release;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_Release;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target utilosg</Message>
+      <Command>setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg/CMakeFiles/utilosg_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osg.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\OpenThreads.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgViewer.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgText.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgdb.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgUtil.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgGA.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgSim.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgAnimation.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgFX.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgParticle.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarth.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthUtil.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthFeatures.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthSymbology.lib;..\..\3rd_party\geos-3.5.1-x64-vs2017\release\lib\geos.lib;..\..\lib\Release\util.lib;opengl32.lib;glu32.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/Release/utilosg.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/Release/utilosg.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_MinSizeRel;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;DBG_HAS_DLL=0;CMAKE_INTDIR="MinSizeRel";utilosg_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;DBG_HAS_DLL=0;CMAKE_INTDIR=\"MinSizeRel\";utilosg_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_MinSizeRel;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_MinSizeRel;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target utilosg</Message>
+      <Command>setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg/CMakeFiles/utilosg_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osg.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\OpenThreads.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgViewer.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgText.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgdb.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgUtil.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgGA.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgSim.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgAnimation.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgFX.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgParticle.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarth.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthUtil.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthFeatures.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthSymbology.lib;..\..\3rd_party\geos-3.5.1-x64-vs2017\release\lib\geos.lib;..\..\lib\MinSizeRel\util.lib;opengl32.lib;glu32.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/MinSizeRel/utilosg.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/MinSizeRel/utilosg.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_RelWithDebInfo;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4286;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;DBG_HAS_DLL=0;CMAKE_INTDIR="RelWithDebInfo";utilosg_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NOMINMAX;SWDEV_ALL_USE_DLL;DBG_HAS_DLL=0;CMAKE_INTDIR=\"RelWithDebInfo\";utilosg_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_RelWithDebInfo;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\include_RelWithDebInfo;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\gtest-1.8.0-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\.;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\..\uto;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osgEarth-2.10.1-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\3rd_party\osg-3.6.3-x64-vs2017\include;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source=;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CME;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\util\source;C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target utilosg</Message>
+      <Command>setlocal
+cd C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -E cmake_autogen C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg/CMakeFiles/utilosg_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osg.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\OpenThreads.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgViewer.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgText.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgdb.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgUtil.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgGA.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgSim.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgAnimation.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgFX.lib;..\..\3rd_party\osg-3.6.3-x64-vs2017\release\lib\osgParticle.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarth.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthUtil.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthFeatures.lib;..\..\3rd_party\osgEarth-2.10.1-x64-vs2017\release\lib\osgEarthSymbology.lib;..\..\3rd_party\geos-3.5.1-x64-vs2017\release\lib\geos.lib;..\..\lib\RelWithDebInfo\util.lib;opengl32.lib;glu32.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/lib/RelWithDebInfo/utilosg.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/RelWithDebInfo/utilosg.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMAKE3.20.1\bin\cmake.exe" -SC:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev -BC:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon --check-stamp-file C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\GenerateExportHeader.cmake;C:\Program Files\CMAKE3.20.1\share\cmake-3.20\Modules\exportheader.cmake.in;C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\cmake\Modules\swdev_project.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\Uto.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\UtoCallback.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\UtoCleanup.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\UtoCleanup.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\UtoOptions.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\UtoPriv.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\UtoVS_Version.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\UtoVersion.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Core\UtoVersionInfo.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity\UtoEntity.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity\UtoEntityDB.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity\UtoEntityRef.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Entity\UtoEntityRef.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\StdAfx.h" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoCallback.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoCamera.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoDebug.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoDrawableCallback.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoGeometryUtil.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoIsect.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoObjectManager.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoOptions.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoOverlayManager.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoPathParser.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoPriv.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoRenderBinManager.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoRenderInfo.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoShaderUtilities.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoShapeFactory.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoShapeFrame.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoShapeImp.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoSmallObj.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoTerrainFactory.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoTerrainImp.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoTexturedPolygonImp.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoUpdateCallback.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoViewerProjection.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoWallClock.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\include\UtoWindowImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource\UtoResourceDB.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource\UtoResourceIteratorPolicies.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Resource\UtoResourceIterators.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoAttrPolyLineShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoAttrPolyLineShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoAttrPolyLineShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoCircleShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEllipseShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEllipseShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEllipseShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisAtmosphere.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisAtmosphere.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisMoon.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisMoon.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisNode.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisNode.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisStars.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisStars.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisSun.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoEphemerisSun.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGLShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGLShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGLShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGeodeShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGeodeShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGeometryShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGeometryShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGroupShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGroupShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoGroupShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoIconBoardShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoIconBoardShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoIconBoardShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoInteractionShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoInteractionShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoInteractionShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelPart.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelPartImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelPartImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelSwitch.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelSwitchImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoModelSwitchImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPointListShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPointListShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPointListShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPolyLineShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPolyLineShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPolyLineShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPolyShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPolyShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPolygonShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPolygonShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoPolygonShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoRawShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoShapeFactory.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoShapeFrame.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoShapeImp.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoSphereShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoSphereShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoSphereShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTessellatedPolygonShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTessellatedPolygonShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTessellatedPolygonShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTextShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTextShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTextShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTexturedPolygonImp.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTimerShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTimerShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoTimerShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoVectorShape.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoVectorShapeImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Shape\UtoVectorShapeImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain\UtoCmeTerrain.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain\UtoCmeTerrainImp.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain\UtoCmeTerrainImp.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain\UtoTerrain.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain\UtoTerrainColorVisitor.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain\UtoTerrainFactory.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Terrain\UtoTerrainImp.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoCmeIntersectVisitor.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoDebug.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoGeometryUtil.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoIsect.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoMapProjection.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoObjectManager.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoPathParser.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoRenderBinManager.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoSettingsTree.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoShaderUtilities.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoShaders.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoSingleton.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoSmallObj.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoThreads.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoTypes.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Utility\UtoWallClock.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoCamera.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoCameraOrtho.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoCameraPerspective.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoEntityIntersector.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoEntityIntersector.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoHitInfo.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoHittestStrategy.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoHittestStrategy.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoHittestTraverser.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoHittestTraverser.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoHittestUtils.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoHittestUtils.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoOverlay.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoOverlayManager.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoScreenOverlayManager.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoTreeDump.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoTreeDump.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoViewer.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoViewerHighlight.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoViewerProjection.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoViewerRTTComposite.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoViewerScreenCaptureHandler.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoViewerScreenCaptureHandler.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoWindow.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoWindowImp.cpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\source\Viewer\UtoWorld.cpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtCircularBufferIndex.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\Uto.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoAttrPolyLineShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoCameraOrtho.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoCameraPerspective.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoCircleShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoCmeIntersectVisitor.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoCmeLineFunctor.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoCmeTerrain.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoEllipseShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoEntity.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoEntityDB.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoGLShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoGroupShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoHitInfo.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoIconBoardShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoInteractionShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoMapProjection.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoMemory.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoModelPart.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoModelShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoModelSwitch.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoOsg.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoOverlay.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoPointListShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoPolyLineShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoPolygonShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoRawShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoResourceCallback.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoResourceDB.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoResourceIteratorPolicies.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoScreenOverlayManager.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoSettingsTree.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoShaders.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoSphereShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoTerrain.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoTessellatedPolygonShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoTextShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoTimerShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoTypes.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoUtility.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoVectorShape.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoVersionInfo.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoViewFilter.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoViewer.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoViewerHighlight.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoViewerRTTComposite.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoWindow.hpp" />
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\utilosg\uto\UtoWorld.hpp" />
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\utilosg\utilosg_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\ZERO_CHECK.vcxproj">
+      <Project>{9BBC3C7A-6F01-314E-9E4D-4DECBF342CE0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\util\source\util.vcxproj">
+      <Project>{2AC51FF1-2636-3F2D-A6C4-D4B63234D737}</Project>
+      <Name>util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

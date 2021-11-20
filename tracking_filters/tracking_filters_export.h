@@ -1,0 +1,42 @@
+
+#ifndef TRACKING_FILTERS_EXPORT_H
+#define TRACKING_FILTERS_EXPORT_H
+
+#ifdef TRACKING_FILTERS_STATIC_DEFINE
+#  define TRACKING_FILTERS_EXPORT
+#  define TRACKING_FILTERS_NO_EXPORT
+#else
+#  ifndef TRACKING_FILTERS_EXPORT
+#    ifdef tracking_filters_EXPORTS
+        /* We are building this library */
+#      define TRACKING_FILTERS_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define TRACKING_FILTERS_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef TRACKING_FILTERS_NO_EXPORT
+#    define TRACKING_FILTERS_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef TRACKING_FILTERS_DEPRECATED
+#  define TRACKING_FILTERS_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef TRACKING_FILTERS_DEPRECATED_EXPORT
+#  define TRACKING_FILTERS_DEPRECATED_EXPORT TRACKING_FILTERS_EXPORT TRACKING_FILTERS_DEPRECATED
+#endif
+
+#ifndef TRACKING_FILTERS_DEPRECATED_NO_EXPORT
+#  define TRACKING_FILTERS_DEPRECATED_NO_EXPORT TRACKING_FILTERS_NO_EXPORT TRACKING_FILTERS_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef TRACKING_FILTERS_NO_DEPRECATED
+#    define TRACKING_FILTERS_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* TRACKING_FILTERS_EXPORT_H */

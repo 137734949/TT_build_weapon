@@ -1,0 +1,33 @@
+{
+	"BUILD_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/wkf_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/wkf/core/source",
+	"CMAKE_SOURCE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev",
+	"INCLUDE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/wkf_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/wkf_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/wkf_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/wkf_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/wkf_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/wkf/core/ui/resources/icons/damage.png",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/wkf/core/ui/resources/icons/detect.png",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/wkf/core/ui/resources/icons/vulnerable.png",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/wkf/core/ui/resources/icons/immune.png"
+	],
+	"LOCK_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/CMakeFiles/wkf_autogen.dir/AutoRcc_interactions_B2XZZMP2QN_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "interactions" ],
+	"OUTPUT_CHECKSUM" : "B2XZZMP2QN",
+	"OUTPUT_NAME" : "qrc_interactions.cpp",
+	"RCC_EXECUTABLE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/CMakeFiles/wkf_autogen.dir/AutoRcc_interactions_B2XZZMP2QN_Used.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/CMakeFiles/wkf_autogen.dir/AutoRcc_interactions_B2XZZMP2QN_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/CMakeFiles/wkf_autogen.dir/AutoRcc_interactions_B2XZZMP2QN_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/CMakeFiles/wkf_autogen.dir/AutoRcc_interactions_B2XZZMP2QN_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/wkf/CMakeFiles/wkf_autogen.dir/AutoRcc_interactions_B2XZZMP2QN_Used_Release.txt",
+	"SOURCE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/wkf/core/ui/resources/interactions.qrc",
+	"VERBOSITY" : 0
+}

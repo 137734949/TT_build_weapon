@@ -1,0 +1,1212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\wkf_common_autogen\mocs_compilation_Debug.cpp">
+      <Filter>qt_autogen\moc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatDataContainer.cpp">
+      <Filter>air_combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatDisplayInterface.cpp">
+      <Filter>air_combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatOverlay.cpp">
+      <Filter>air_combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatVisualizationPrefObject.cpp">
+      <Filter>air_combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatVisualizationPrefWidget.cpp">
+      <Filter>air_combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAttachmentVariableInteraction.cpp">
+      <Filter>air_combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAnnotationDecorator.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAnnotationDisplayInterface.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAnnotationPlugin.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAttachmentDecorator.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAttachmentDecoratorScrum.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAttachmentHeadingVector.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAttachmentRangeRing.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfBullseyeWidget.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfPointOfInterestPropertiesWidget.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfRingPropertiesWidget.cpp">
+      <Filter>annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentDockWidget.cpp">
+      <Filter>comment</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentForwardingService.cpp">
+      <Filter>comment</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentPrefObject.cpp">
+      <Filter>comment</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentPrefWidget.cpp">
+      <Filter>comment</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentTextLog.cpp">
+      <Filter>comment</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\data_ring\WkfAttachmentDataRing.cpp">
+      <Filter>data_ring</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\data_ring\WkfRingDataDialog.cpp">
+      <Filter>data_ring</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarker.cpp">
+      <Filter>event_marker</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarkerDisplayInterface.cpp">
+      <Filter>event_marker</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarkerPluginBase.cpp">
+      <Filter>event_marker</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarkerPrefObject.cpp">
+      <Filter>event_marker</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarkerPrefWidget.cpp">
+      <Filter>event_marker</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterItem.cpp">
+      <Filter>filter_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterModel.cpp">
+      <Filter>filter_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterObject.cpp">
+      <Filter>filter_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterPlot.cpp">
+      <Filter>filter_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterRules.cpp">
+      <Filter>filter_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterThread.cpp">
+      <Filter>filter_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterView.cpp">
+      <Filter>filter_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterWidget.cpp">
+      <Filter>filter_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_ArrowButton.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_DataContainer.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_Dockable.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_GlButton.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_MenuButton.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_OverlayGl.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_OverlayHorizon.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_Page.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageBlank.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageEngine.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageFCS.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageFUEL.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageHUD.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageHeader.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageHorizon.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageICAWS.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageMenu.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageNav.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageSMS.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageTFLIR.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageTWD.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageTactical.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageTex.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PrefObject.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PrefWidget.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_TabButton.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_TextButton.cpp">
+      <Filter>hdd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_DataContainer.cpp">
+      <Filter>hud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_DockWidget.cpp">
+      <Filter>hud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_Overlay.cpp">
+      <Filter>hud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_PrefObject.cpp">
+      <Filter>hud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_PrefWidget.cpp">
+      <Filter>hud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\interaction\WkfAttachmentInteraction.cpp">
+      <Filter>interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\interaction\WkfInteractionPluginBase.cpp">
+      <Filter>interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\interaction\WkfInteractionPrefObject.cpp">
+      <Filter>interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\interaction\WkfInteractionPrefWidget.cpp">
+      <Filter>interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogDockWidget.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogModel.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogPluginBase.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogPrefObject.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogPrefWidget.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogTabWidget.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogTreeView.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfAttachmentOrbit.cpp">
+      <Filter>orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfMoonOrbitPrefObject.cpp">
+      <Filter>orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfMoonOrbitPrefWidget.cpp">
+      <Filter>orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfOrbitInterface.cpp">
+      <Filter>orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfOrbitPluginBase.cpp">
+      <Filter>orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfOrbitPrefObject.cpp">
+      <Filter>orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfOrbitPrefWidget.cpp">
+      <Filter>orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\misc\WkfExportHelper.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\misc\WkfImmersiveViewDockWidget.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\misc\WkfTrackDisplayInterface.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\particle_system\WkfParticleSystem.cpp">
+      <Filter>particle_system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\particle_system\WkfParticleSystemUpdater.cpp">
+      <Filter>particle_system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\platform_browser\WkfPlatformBrowserDockWidget.cpp">
+      <Filter>platform_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\platform_browser\WkfPlatformBrowserInterface.cpp">
+      <Filter>platform_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\platform_history\WkfPlatformHistoryPrefObject.cpp">
+      <Filter>platform_history</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\platform_history\WkfPlatformHistoryPrefWidget.cpp">
+      <Filter>platform_history</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfAttachmentRoute.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserCreateDialog.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserDialog.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserDockWidget.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserEditDialog.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserInterface.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sa_display\WkfSA_DisplayDataContainer.cpp">
+      <Filter>sa_display</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sa_display\WkfSA_DisplayDockWidget.cpp">
+      <Filter>sa_display</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sa_display\WkfSA_DisplayOverlay.cpp">
+      <Filter>sa_display</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sa_display\WkfSA_DisplayPluginBase.cpp">
+      <Filter>sa_display</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfAttachmentSatelliteTetherGrid.cpp">
+      <Filter>satellite_tether</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfAttachmentSatelliteTetherTrace.cpp">
+      <Filter>satellite_tether</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfAttachmentSatelliteTetherTrack.cpp">
+      <Filter>satellite_tether</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfSatelliteTetherDockWidget.cpp">
+      <Filter>satellite_tether</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfSatelliteTetherPrefObject.cpp">
+      <Filter>satellite_tether</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfSatelliteTetherPrefWidget.cpp">
+      <Filter>satellite_tether</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\selectors\WkfGroupingSelector.cpp">
+      <Filter>selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\selectors\WkfImageSelectorWidget.cpp">
+      <Filter>selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sensor_volume\WkfAttachmentSensorVolume.cpp">
+      <Filter>sensor_volume</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sensor_volume\WkfSensorVolumesOptionHistoryManager.cpp">
+      <Filter>sensor_volume</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sensor_volume\WkfSensorVolumesPrefObject.cpp">
+      <Filter>sensor_volume</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sensor_volume\WkfSensorVolumesPrefWidget.cpp">
+      <Filter>sensor_volume</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_ColorRule.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_ModelBase.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_ModelUtils.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformDatabase.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformSidePlot.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformStatus.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformStatusModel.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformTypePlot.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlotWidget.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PluginBase.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_ResourceRuleSet.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_RuleSet.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfEngagementStatistics.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfSensorDetectionReport.cpp">
+      <Filter>statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTrackVisibilityPrefObject.cpp">
+      <Filter>visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTrackVisibilityPrefWidget.cpp">
+      <Filter>visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTypeVisibilityPrefObject.cpp">
+      <Filter>visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTypeVisibilityPrefWidget.cpp">
+      <Filter>visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTypeVisibilityWidget.cpp">
+      <Filter>visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfVisibilityDockWidget.cpp">
+      <Filter>visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfAttachmentVisualEffect.cpp">
+      <Filter>visual_effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfVisualEffects.cpp">
+      <Filter>visual_effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfVisualEffectsDisplayInterface.cpp">
+      <Filter>visual_effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfVisualEffectsPrefObject.cpp">
+      <Filter>visual_effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfVisualEffectsPrefWidget.cpp">
+      <Filter>visual_effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\wsf_draw\WkfWsfDrawPrefObject.cpp">
+      <Filter>wsf_draw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\wsf_draw\WkfWsfDrawPrefWidget.cpp">
+      <Filter>wsf_draw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\zone_browser\WkfZoneBrowserDataContainer.cpp">
+      <Filter>zone_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\zone_browser\WkfZoneBrowserDockWidget.cpp">
+      <Filter>zone_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\zone_browser\WkfZoneBrowserPrefObject.cpp">
+      <Filter>zone_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\zone_browser\WkfZoneBrowserPrefWidget.cpp">
+      <Filter>zone_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\wkf_common_autogen\mocs_compilation_Release.cpp">
+      <Filter>qt_autogen\moc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\wkf_common_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>qt_autogen\moc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\wkf_common_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>qt_autogen\moc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatDataContainer.hpp">
+      <Filter>air_combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatDisplayInterface.hpp">
+      <Filter>air_combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatOverlay.hpp">
+      <Filter>air_combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatVisualizationPrefObject.hpp">
+      <Filter>air_combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAirCombatVisualizationPrefWidget.hpp">
+      <Filter>air_combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\air_combat\WkfAttachmentVariableInteraction.hpp">
+      <Filter>air_combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAnnotationDecorator.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAnnotationDisplayInterface.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAnnotationPlugin.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAttachmentDecorator.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAttachmentDecoratorScrum.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAttachmentHeadingVector.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfAttachmentRangeRing.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfBullseyeWidget.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfPointOfInterestPropertiesWidget.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\annotation\WkfRingPropertiesWidget.hpp">
+      <Filter>annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentDockWidget.hpp">
+      <Filter>comment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentForwardingService.hpp">
+      <Filter>comment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentPrefObject.hpp">
+      <Filter>comment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentPrefWidget.hpp">
+      <Filter>comment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\comment\WkfCommentTextLog.hpp">
+      <Filter>comment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\data_ring\WkfAttachmentDataRing.hpp">
+      <Filter>data_ring</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\data_ring\WkfRingDataDialog.hpp">
+      <Filter>data_ring</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfAttachmentEventMarker.hpp">
+      <Filter>event_marker</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarker.hpp">
+      <Filter>event_marker</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarkerDisplayInterface.hpp">
+      <Filter>event_marker</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarkerPluginBase.hpp">
+      <Filter>event_marker</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarkerPrefObject.hpp">
+      <Filter>event_marker</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\event_marker\WkfEventMarkerPrefWidget.hpp">
+      <Filter>event_marker</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterItem.hpp">
+      <Filter>filter_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterModel.hpp">
+      <Filter>filter_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterObject.hpp">
+      <Filter>filter_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterPlot.hpp">
+      <Filter>filter_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterRules.hpp">
+      <Filter>filter_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterThread.hpp">
+      <Filter>filter_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterView.hpp">
+      <Filter>filter_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\filter_widget\WkfFilterWidget.hpp">
+      <Filter>filter_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_ArrowButton.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_DataContainer.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_Dockable.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_GlButton.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_MenuButton.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_OverlayGl.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_OverlayHorizon.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_Page.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageBlank.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageEngine.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageFCS.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageFUEL.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageHUD.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageHeader.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageHorizon.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageICAWS.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageMenu.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageNav.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageSMS.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageTFLIR.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageTWD.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageTactical.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PageTex.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PrefObject.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_PrefWidget.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_TabButton.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hdd\WkfHDD_TextButton.hpp">
+      <Filter>hdd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_DataContainer.hpp">
+      <Filter>hud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_DockWidget.hpp">
+      <Filter>hud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_Overlay.hpp">
+      <Filter>hud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_PrefObject.hpp">
+      <Filter>hud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\hud\WkfHUD_PrefWidget.hpp">
+      <Filter>hud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\interaction\WkfAttachmentInteraction.hpp">
+      <Filter>interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\interaction\WkfInteractionPluginBase.hpp">
+      <Filter>interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\interaction\WkfInteractionPrefObject.hpp">
+      <Filter>interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\interaction\WkfInteractionPrefWidget.hpp">
+      <Filter>interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogDockWidget.hpp">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogModel.hpp">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogPluginBase.hpp">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogPrefObject.hpp">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogPrefWidget.hpp">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogTabWidget.hpp">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\logging\WkfLogTreeView.hpp">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfAttachmentOrbit.hpp">
+      <Filter>orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfMoonOrbitPrefObject.hpp">
+      <Filter>orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfMoonOrbitPrefWidget.hpp">
+      <Filter>orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfOrbitInterface.hpp">
+      <Filter>orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfOrbitPluginBase.hpp">
+      <Filter>orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfOrbitPrefObject.hpp">
+      <Filter>orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\orbit\WkfOrbitPrefWidget.hpp">
+      <Filter>orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\misc\WkfExportHelper.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\misc\WkfImmersiveViewDockWidget.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\misc\WkfTrackDisplayInterface.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\particle_system\WkfParticleSystem.hpp">
+      <Filter>particle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\particle_system\WkfParticleSystemUpdater.hpp">
+      <Filter>particle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\platform_browser\WkfPlatformBrowserDockWidget.hpp">
+      <Filter>platform_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\platform_browser\WkfPlatformBrowserInterface.hpp">
+      <Filter>platform_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\platform_history\WkfPlatformHistoryPrefObject.hpp">
+      <Filter>platform_history</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\platform_history\WkfPlatformHistoryPrefWidget.hpp">
+      <Filter>platform_history</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfAttachmentRoute.hpp">
+      <Filter>route</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserCreateDialog.hpp">
+      <Filter>route</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserDialog.hpp">
+      <Filter>route</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserDockWidget.hpp">
+      <Filter>route</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserEditDialog.hpp">
+      <Filter>route</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\route\WkfRouteBrowserInterface.hpp">
+      <Filter>route</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sa_display\WkfSA_DisplayDataContainer.hpp">
+      <Filter>sa_display</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sa_display\WkfSA_DisplayDockWidget.hpp">
+      <Filter>sa_display</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sa_display\WkfSA_DisplayOverlay.hpp">
+      <Filter>sa_display</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sa_display\WkfSA_DisplayPluginBase.hpp">
+      <Filter>sa_display</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfAttachmentSatelliteTetherGrid.hpp">
+      <Filter>satellite_tether</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfAttachmentSatelliteTetherTrace.hpp">
+      <Filter>satellite_tether</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfAttachmentSatelliteTetherTrack.hpp">
+      <Filter>satellite_tether</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfSatelliteTetherDockWidget.hpp">
+      <Filter>satellite_tether</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfSatelliteTetherPrefObject.hpp">
+      <Filter>satellite_tether</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\satellite_tether\WkfSatelliteTetherPrefWidget.hpp">
+      <Filter>satellite_tether</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\selectors\WkfGroupingSelector.hpp">
+      <Filter>selectors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\selectors\WkfImageSelectorWidget.hpp">
+      <Filter>selectors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sensor_volume\WkfAttachmentSensorVolume.hpp">
+      <Filter>sensor_volume</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sensor_volume\WkfSensorVolumesOptionHistoryManager.hpp">
+      <Filter>sensor_volume</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sensor_volume\WkfSensorVolumesPrefObject.hpp">
+      <Filter>sensor_volume</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\sensor_volume\WkfSensorVolumesPrefWidget.hpp">
+      <Filter>sensor_volume</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_ColorRule.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_ModelBase.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_ModelUtils.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformDatabase.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformSidePlot.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformStatus.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformStatusModel.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlatformTypePlot.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PlotWidget.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_PluginBase.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_ResourceRuleSet.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfBM_RuleSet.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfEngagementStatistics.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\statistics\WkfSensorDetectionReport.hpp">
+      <Filter>statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTrackVisibilityPrefObject.hpp">
+      <Filter>visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTrackVisibilityPrefWidget.hpp">
+      <Filter>visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTypeVisibilityPrefObject.hpp">
+      <Filter>visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTypeVisibilityPrefWidget.hpp">
+      <Filter>visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfTypeVisibilityWidget.hpp">
+      <Filter>visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visibility\WkfVisibilityDockWidget.hpp">
+      <Filter>visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfAttachmentVisualEffect.hpp">
+      <Filter>visual_effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfVisualEffects.hpp">
+      <Filter>visual_effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfVisualEffectsDisplayInterface.hpp">
+      <Filter>visual_effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfVisualEffectsPrefObject.hpp">
+      <Filter>visual_effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\visual_effect\WkfVisualEffectsPrefWidget.hpp">
+      <Filter>visual_effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\wsf_draw\WkfWsfDrawPrefObject.hpp">
+      <Filter>wsf_draw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\wsf_draw\WkfWsfDrawPrefWidget.hpp">
+      <Filter>wsf_draw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\zone_browser\WkfZoneBrowserDataContainer.hpp">
+      <Filter>zone_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\zone_browser\WkfZoneBrowserDockWidget.hpp">
+      <Filter>zone_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\zone_browser\WkfZoneBrowserPrefObject.hpp">
+      <Filter>zone_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\zone_browser\WkfZoneBrowserPrefWidget.hpp">
+      <Filter>zone_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfAirCombatPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfBM_ColorRule.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfBM_PlatformStatus.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfBM_PlotWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfBM_RuleSet.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfBullseye.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfCommentDockWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfCommentPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfEngagementStatistics.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfFilterItem.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfFilterPlot.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfFilterWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfGroupingSelectorDialog.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfInteractionPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfLogDockWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfLogPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfLogTabWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfMoonOrbitPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfPlatformBrowserDockWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfPlatformHistoryPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfPointOfInterestProperties.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfRelativeGeometryDialog.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfRingDataDialog.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfRingProperties.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfRouteBrowserDialog.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfRouteBrowserDockWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfSA_DisplayPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfSensorDetectionReport.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfSensorVolumesPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfTrackVisibilityPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfVisibilityDockWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfVisualEffectsPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfWsfDrawPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfZoneBrowserDockWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chakanson\Documents\TTCP-2.7.1\TT_build_weapon\build_mystic\wkf_common\ui_WkfZoneBrowserPrefWidget.h">
+      <Filter>qt_autogen\uic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfAirCombatPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfBM_ColorRule.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfBM_PlatformStatus.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfBM_PlotWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfBM_RuleSet.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfBullseye.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfCommentDockWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfCommentPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfEngagementStatistics.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfFilterItem.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfFilterPlot.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfFilterWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfGroupingSelectorDialog.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfInteractionPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfLogDockWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfLogPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfLogTabWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfMoonOrbitPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfPlatformBrowserDockWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfPlatformHistoryPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfPointOfInterestProperties.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfRelativeGeometryDialog.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfRingDataDialog.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfRingProperties.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfRouteBrowserDialog.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfRouteBrowserDockWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfSA_DisplayPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfSensorDetectionReport.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfSensorVolumesPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfTrackVisibilityPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfVisibilityDockWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfVisualEffectsPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfWsfDrawPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfZoneBrowserDockWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\ui\WkfZoneBrowserPrefWidget.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chakanson\Documents\TTCP-2.7.1\AFSIM_TTCP_2.7.1-Dev\tools\wkf\common\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="air_combat">
+      <UniqueIdentifier>{F7163CC3-902E-3362-90D7-A0BD16C26E0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="annotation">
+      <UniqueIdentifier>{3C8306C4-00E7-3E2D-BB99-A718B0101952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="comment">
+      <UniqueIdentifier>{F4BC42EC-4410-3F75-A036-001A271EF0E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data_ring">
+      <UniqueIdentifier>{AB050ECF-DE88-366F-98A6-D6C55949EFC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="event_marker">
+      <UniqueIdentifier>{5C6FC747-0EE0-3B6E-AB52-48CB94C81A84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter_widget">
+      <UniqueIdentifier>{85CC6391-CC99-32D5-863C-D83597B00BE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hdd">
+      <UniqueIdentifier>{8BA89C16-2F89-3C3D-8C81-C4B05CD34CA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hud">
+      <UniqueIdentifier>{466B5E1D-81DE-3BA8-94FE-7E2425F9B04E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interaction">
+      <UniqueIdentifier>{42925ADD-92F3-39B3-8EE7-B105FF8408D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logging">
+      <UniqueIdentifier>{714B4C62-18A8-3688-9DDF-98734F15285E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{0A03E67F-B61E-31F3-8695-F3EF644EDE9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="orbit">
+      <UniqueIdentifier>{C4F363DD-C3DB-3074-BC47-DC3CE6734811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particle_system">
+      <UniqueIdentifier>{CE16E2A6-8A6E-39B7-8D8B-1847FA9CA057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform_browser">
+      <UniqueIdentifier>{43212621-0910-3DF0-9632-8CAE30910B24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform_history">
+      <UniqueIdentifier>{793467A5-A51A-3E59-807C-89BD290992D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qt_autogen">
+      <UniqueIdentifier>{705454FF-F41B-32AC-A8C7-EE9DBEECA67C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qt_autogen\moc">
+      <UniqueIdentifier>{02FE5F61-8144-388A-885C-8170C34D7B61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qt_autogen\uic">
+      <UniqueIdentifier>{B74942DC-A2AD-392D-9E2E-6B30344E072C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="route">
+      <UniqueIdentifier>{CB2D4D95-0E8B-30B4-B3F7-B078D9C7236D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sa_display">
+      <UniqueIdentifier>{69822C23-ED34-3FD6-9C31-D7BD898B2F0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="satellite_tether">
+      <UniqueIdentifier>{25FF249B-71E8-38E1-BE3D-A7C95EB5EEE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="selectors">
+      <UniqueIdentifier>{F1DDA23D-3968-3818-A0A0-9C19EE3DBEEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sensor_volume">
+      <UniqueIdentifier>{4BDAA667-3DF8-3909-B6DB-6D0C1033806C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="statistics">
+      <UniqueIdentifier>{04017209-464D-332F-9102-C93E6455588E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{05A30D3F-9064-30D0-8058-1592F0B22C8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visibility">
+      <UniqueIdentifier>{12FE9A60-3A45-3FD8-8DC7-D4E8A9591EF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visual_effect">
+      <UniqueIdentifier>{56DF860B-CE20-304C-8568-D3154FD7C961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wsf_draw">
+      <UniqueIdentifier>{929D7678-7D29-30EA-9353-76AD012CAE7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zone_browser">
+      <UniqueIdentifier>{D7A59F6A-75F8-3880-BB2D-72AD17224545}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

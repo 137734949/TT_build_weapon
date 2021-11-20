@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/utilqt_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/source",
+	"CMAKE_SOURCE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev",
+	"INCLUDE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/utilqt_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/utilqt_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/utilqt_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/utilqt_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/utilqt_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/resources/images/256_32x16_Font_comp.tga",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/resources/images/256_32x16_Font.tga"
+	],
+	"LOCK_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "utilqt" ],
+	"OUTPUT_CHECKSUM" : "OM7KMYCCQQ",
+	"OUTPUT_NAME" : "qrc_utilqt.cpp",
+	"RCC_EXECUTABLE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Used.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt/CMakeFiles/utilqt_autogen.dir/AutoRcc_utilqt_OM7KMYCCQQ_Used_Release.txt",
+	"SOURCE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/ui/resources/utilqt.qrc",
+	"VERBOSITY" : 0
+}

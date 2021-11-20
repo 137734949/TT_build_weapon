@@ -1,0 +1,245 @@
+{
+	"BUILD_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMAKE3.20.1/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/CMakeLists.txt",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/cmake/Modules/swdev_project.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/FindThreads.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/CheckLibraryExists.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/CheckIncludeFile.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/FindPackageMessage.cmake",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/cmake/Modules/qt_project.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/GenerateExportHeader.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/CheckCCompilerFlag.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/CheckCXXCompilerFlag.cmake",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/3rd_party-cmake/qt-5.12.9.cmake",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/3rd_party-cmake/shared.cmake",
+		"C:/Program Files/CMAKE3.20.1/share/cmake-3.20/Modules/exportheader.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/AngleEntry.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_AngleEntry.cpp",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaAttachmentAngles.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VaAttachmentAngles.cpp",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaAttachmentQt.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VaAttachmentQt.cpp",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaDecoratorNode.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VaDecoratorNode.cpp",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaOSG_ScenegraphBrowserQt.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VaOSG_ScenegraphBrowserQt.cpp",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaOverlayMapGrid.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VaOverlayMapGrid.cpp",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaOverlayMapRings.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VaOverlayMapRings.cpp",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaOverlayQt.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VaOverlayQt.cpp",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaWidget.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VaWidget.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/vespatk_qt_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"NOMINMAX",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"SWDEV_ALL_USE_DLL",
+		"WIN32",
+		"_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING",
+		"vespatk_qt_EXPORTS"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"NOMINMAX",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"SWDEV_ALL_USE_DLL",
+		"WIN32",
+		"_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING",
+		"vespatk_qt_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/gtest-1.8.0-x64-vs2017/include",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/osg-3.6.3-x64-vs2017/include",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/osgEarth-2.10.1-x64-vs2017/include",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/gdal-3.0.4-x64-vs2017/include",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/source",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/shaders",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/util/source",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/util/source",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/geodata/source",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/geodata/source",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/genio/source",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/genio",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source=",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/CME",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/Core",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/Entity",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/include",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/Resource",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/Shape",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/Terrain",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/Utility",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/Viewer",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/uto",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilosg",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilosg/source/osgdb_osgearth_dted_tms",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/utilqt/source",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/utilqt",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/include",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/include/QtWidgets",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/include/QtGui",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/include/QtANGLE",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/include/QtCore",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/mkspecs/win32-msvc",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/include/QtOpenGL",
+		"C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/include/QtNetwork"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/3rd_party/qt-5.12.9-x64-vs2017/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/chakanson/Documents/TTCP-2.7.1/TT_build_weapon/build_mystic/vespatk_qt/CMakeFiles/vespatk_qt_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/AngleEntry.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaAttachmentAngles.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaAttachmentQt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaDecoratorNode.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaOSG_ScenegraphBrowserQt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaOverlayMapGrid.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaOverlayMapRings.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaOverlayQt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/chakanson/Documents/TTCP-2.7.1/AFSIM_TTCP_2.7.1-Dev/tools/vespatk/vespatk_qt/source/VaWidget.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}
